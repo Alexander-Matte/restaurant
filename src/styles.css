@@ -8,10 +8,15 @@ body {
     min-height: 100vh;
 }
 
+#content-section {
+    margin-top: auto;
+}
+
 .main-img {
     max-height: 450px;
 }
 
 #footer-section {
     margin-top: auto;
+    margin-bottom: 15px;
 }
