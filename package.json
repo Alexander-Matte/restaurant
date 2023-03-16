@@ -1,0 +1,23 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Sample Restaurant Page",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander-Matte/restaurant.git"
+  },
+  "author": "Alex Matte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexander-Matte/restaurant/issues"
+  },
+  "homepage": "https://github.com/Alexander-Matte/restaurant#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
+  }
+}
