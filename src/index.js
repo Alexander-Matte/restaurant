@@ -1,8 +1,10 @@
 import { init } from "./js_modules/init";
 import { home_init } from "./js_modules/home_init";
-import { menu_init } from "./js_modules/menu_init"
+import { menu_init } from "./js_modules/menu_init";
+import { contact_init } from "./js_modules/contact_init";
 
 init();
+
 
 
 
@@ -17,5 +19,10 @@ homeTab.addEventListener("click", () => {
 
 menuTab.addEventListener("click", () => {
     menu_init();
+
+})
+
+contactTab.addEventListener("click", () => {
+    contact_init();
 
 })

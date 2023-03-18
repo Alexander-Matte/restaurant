@@ -40,9 +40,7 @@ export function generateContentHTML () {
 
 export function generateFooterHTML () {
     return `<div class="d-flex justify-content-center gap-5">
-                <div class="terms">Terms and Conditions</div>
-                <div class="contact-us-footer">Contact Us</div>
-                <div class="privacy-footer">Privacy Policy</div>
+                <div class="terms">Created by Alex Matte</div>
                 <div class="git-hub">Git Hub</div>
             </div>`
 }

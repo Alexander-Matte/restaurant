@@ -14,6 +14,7 @@ body {
 
 .main-img {
     max-height: 450px;
+    width: 500px;
 }
 
 #footer-section {
@@ -24,6 +25,11 @@ body {
 h2 {
     margin-top: 50px;
 }
+
+.menu-content {
+    margin: 0 auto;
+}
+
 .menu-item {
     display: flex;
     flex-wrap: wrap;
@@ -52,4 +58,9 @@ h2 {
     color: #333;
     margin-top: 10px;
     font-weight: bold;
+}
+
+#contactForm {
+    width: 400px;
+    margin: 0 auto;
 }
