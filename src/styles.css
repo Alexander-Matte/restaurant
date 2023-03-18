@@ -20,3 +20,36 @@ body {
     margin-top: auto;
     margin-bottom: 15px;
 }
+
+h2 {
+    margin-top: 50px;
+}
+.menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+.menu-item img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+.menu-item h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.menu-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #666;
+}
+.menu-item .price {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+}
